@@ -14,7 +14,7 @@ def main(argv):
                  "data_OnInterest/delay-int-pitless-hybrid-dfn"]
     numberOfFiles = 3
     colors = {fileNames[0]: "r",
-              fileNames[1]: "b"
+              fileNames[1]: "b",
               fileNames[2]: "g"}
     legendLabels = ["Stateful",
                     "Stateless",

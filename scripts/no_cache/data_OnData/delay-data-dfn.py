@@ -9,13 +9,16 @@ binSize = 1000000000
 
 def main(argv):
     delays = {}
-    fileNames = ["delay-data-pitfull-dfn",
-                 "delay-data-pitless-dfn"]
-    numberOfFiles = 10
+    fileNames = ["data_OnData/delay-data-pitfull-dfn",
+                 "data_OnData/delay-data-pitless-dfn",
+                 "data_OnData/delay-data-pitless-hybrid-dfn"]
+    numberOfFiles = 3
     colors = {fileNames[0]: "r",
-              fileNames[1]: "b"}
+              fileNames[1]: "b",
+              fileNames[2]: "g"}
     legendLabels = ["Stateful",
-                    "Stateless"]
+                    "Stateless",
+                    "Hybrid"]
 
     for fileName in fileNames:
         delay = []
